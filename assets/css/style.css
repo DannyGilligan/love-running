@@ -39,6 +39,10 @@ h2 {
     line-height: 75px;
 }
 
+#logo i {
+    color:rgb(245, 107, 16);
+}
+
 #menu li {
     float: right;
     list-style-type: none;
@@ -71,6 +75,11 @@ h2 {
 #cover-text,
 #cover-text h2 {
     color: #252525;
+}
+
+#cover-text i {
+    font-size: 110%;
+    color:rgb(245, 107, 16);
 }
 
 #hero-image {
@@ -242,4 +251,8 @@ footer {
     margin: 5%;
     padding: 1%;
     color: #3a3a3a
+}
+
+.social-networks i:hover {
+    color:rgb(245, 107, 16);
 }
