@@ -51,7 +51,7 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid rgba(255, 95, 2, 0.7);
 }
 
 .active {
@@ -70,13 +70,13 @@ h2 {
 
 #cover-text,
 #cover-text h2 {
-    color: #fff;
+    color: rgba(255, 95, 2, 0.7);
 }
 
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(243, 243, 245, 0.2), rgba(255, 95, 2, 0.5)), url(../images/hero-image.webp) no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -109,7 +109,7 @@ h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(250, 248, 248, 0.945);
 
     bottom: 30px;
     right: 150px;
@@ -186,7 +186,7 @@ hr {
      border-width: 1px;
      border-radius: 50%;
      margin: 0 auto;
-     background-color: orange;
+     background-color: rgba(255, 95, 2, 0.8);
 }
 
 #circle-cover-bg {
