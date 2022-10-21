@@ -15,6 +15,10 @@ body {
 header {
     border-bottom: 5px solid rgb(245, 107, 16);
     overflow: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
 }
 
 /* headings and logo */
@@ -44,11 +48,15 @@ h2 {
     line-height: 75px;
 }
 
+/* colors the icons within logo */
+
 #logo i {
     color:rgb(245, 107, 16);
 }
 
 #menu li {
+    display: block;
+    box-sizing: border-box;
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -90,7 +98,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(243, 243, 245, .1), rgba(255, 95, 2, .4)), url(../images/hero-image.webp) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(243, 243, 245, .1), rgba(255, 95, 2, .2)), url(../images/hero-image.webp) no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -125,7 +133,7 @@ h2 {
     padding-top: 50px;
     padding-left: 10px;
 
-    background-color: rgba(250, 248, 248, 0.945);
+    background-color: rgba(250, 248, 248, 0.8);
 
     bottom: 30px;
     right: 150px;
