@@ -271,3 +271,16 @@ footer {
 .social-networks i:hover {
     color:rgb(245, 107, 16);
 }
+
+/* Gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
