@@ -51,7 +51,7 @@ h2 {
 /* colors the icons within logo */
 
 #logo i {
-    color:rgb(245, 107, 16);
+    color: rgb(245, 107, 16);
 }
 
 #menu li {
@@ -92,7 +92,7 @@ h2 {
 
 #cover-text i {
     font-size: 110%;
-    color:rgb(245, 107, 16);
+    color: rgb(245, 107, 16);
 }
 
 #hero-image {
@@ -204,15 +204,15 @@ hr {
 }
 
 #circle-container {
-     width: 300px;
-     height: 300px;
-     padding: 30px;
-     border-style: solid;
-     border-color: #ccc;
-     border-width: 1px;
-     border-radius: 50%;
-     margin: 0 auto;
-     background-color: rgba(255, 95, 2, 0.8);
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 95, 2, 0.8);
 }
 
 #circle-cover-bg {
@@ -257,7 +257,7 @@ footer {
     list-style-type: none;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -269,7 +269,7 @@ footer {
 }
 
 .social-networks i:hover {
-    color:rgb(245, 107, 16);
+    color: rgb(245, 107, 16);
 }
 
 /* Gallery */
@@ -281,6 +281,41 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
+}
+
+/* Media queries to ensure responsiveness across devices */
+
+/* For larger to medium screen sizes from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+        border-top: none;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
